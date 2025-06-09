@@ -211,6 +211,7 @@ font-size: .9rem;
     justify-content: center;
     margin-top: 5px;
     margin-left: 15px;
+    font-size: 15px;
 }
 .card3{
      width: 120px;
@@ -270,12 +271,106 @@ font-size: .9rem;
 .foto1{
     position: absolute;
     margin-bottom: 25%;
-    margin-right: 60%;
+    margin-right: 50%;
     width: 120px;
     height: 150px;
     background: url(./src/img/download\ \(6\).jpg);
     background-size: cover;
+    margin-left: 60%;
 }
+.conteudo{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: none;
+    overflow: hidden;
+color: #fff;
+margin-top: 100%;
+font-size: 10px;
+opacity: 0%;
+}
+
+.estilizacao{
+    display: block;
+    list-style: none;
+    width: 840px;
+    height: 550px;
+    margin-right: 34%;
+}
+.estilizacao li{
+    position: relative;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin-bottom: 65%;
+    margin-left: 12%;
+    z-index: 999;
+}
+.estilizacao li:hover{
+    margin-top: -0px;
+}
+.conteudo:hover{
+    background-color: #2b2b2b;
+    margin-top: 140px;
+    opacity: 100%;
+}
+.estilizacao2{
+    position: absolute;
+    margin-top: -34%;
+    margin-right: 43%;
+    cursor: pointer;
+}
+.estilizacao3{
+        position: absolute;
+    margin-top: -34%;
+    margin-right: 17%;
+    cursor: pointer;
+}
+.estilicacao4{
+        position: absolute;
+    margin-top: -55%;
+    margin-right: -10%;
+    cursor: pointer;
+}
+.estilizacao5{
+        position: absolute;
+    margin-top: -3%;
+    margin-right: 49%;
+    cursor: pointer;
+margin-bottom: 6%;
+}
+.estilizacao6{
+           position: absolute;
+    margin-top: 2%;
+    margin-right: 43%;
+    cursor: pointer;
+margin-bottom: 6%;
+}
+.estilizacao7{
+            position: absolute;
+    margin-top: 33%;
+    margin-right: 68%;
+    cursor: pointer;
+margin-bottom: 6%;
+}
+.estilizacao8{
+                position: absolute;
+    margin-top: 33%;
+    margin-right: 43%;
+    cursor: pointer;
+margin-bottom: 6%;
+}
+.estilizacao9{
+  position: absolute;
+    margin-top: 29%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.estilizacao9 :hover .conteudo{
+    opacity: 100%;
+    margin-top: 170px;
+}
+
 
 .data1{
     color: #ffffff;
@@ -306,12 +401,14 @@ font-size: .9rem;
     position: absolute;
     margin-left: 15%;
     margin-bottom: 25%;
+    width: 170px;
+    height: 60px;
 }
 .data2{
     color: #fff;
-    position: absolute;
-    margin-bottom: 10%;
+    position: relative;
     margin-right: 60%;
+    width: 300px;
 }
 .foto4{
     width: 120px;
@@ -357,9 +454,9 @@ font-size: .9rem;
     margin-top: 35%;
 }
 .foto8{
-     width: 120px;
-    height: 150px;
-    margin-right: 10%;
+     width: 170px;
+    height: 60px;
+    margin-right: 20%;
     margin-top: 43%;
 }
 .foto8 {
@@ -413,5 +510,142 @@ font-size: .9rem;
     margin-left: 50%;
     margin-bottom: 90%;
 }
-    
+.card1{
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width:50px !important;
+    height:70px;
+    margin-top: -130%;
+    border-radius: 10px;
+}
+.text{
+    font-size: 10px;
+    margin-top: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1px;
+}
+.card2{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    margin-top: -130%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+    .text2{
+    font-size: 10px;
+    margin-top: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -2px;
+    }
+    .card3{
+        position: absolute;
+        width: 50px;
+        height: 70px;
+        margin-top: -130%;
+        margin-left: 20%;
+        border-radius: 10px;
+    }
+    .text3{
+        font-size: 10px;
+        margin-top: 150%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -2px;
+    }
+    .data1{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-100% ;
+        font-size:10px ;
+        width: 20px;
+    }
+    .foto1{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-80% ;
+        width: 70px;
+        height: 100px;
+        margin-right: 20%;
+    }
+
+    .foto2{
+          position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-80% ;
+        width: 70px;
+        height: 100px;
+        margin-left: 15%;
+    }
+    .foto30{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-80% ;
+        margin-left: 25%; 
+    }
+    .data2{
+         position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-57% ;
+        font-size:10px ;
+        width: 20px;
+    }
+    .foto3{
+           position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-5% ;
+        width: 70px;
+        height: 100px;
+        margin-left: -50%;
+    }
+    .foto4{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-30% ;
+        width: 70px;
+        height: 100px;
+        margin-left:40% ;
+    }
+    .foto5{
+        
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-30% ;
+        width: 70px;
+        height: 100px;
+        margin-left:60% ;
+    }
+    .data3{
+        
+         position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:-30% ;
+        font-size:10px ;
+        width: 20px;
+    }
 }
