@@ -42,22 +42,29 @@ body{
     margin-left: 50px;
     margin-top: 25px;
 }
-.foto{
-    margin-left: -28px;
+.fotos{
+    margin-left: -10px;
     background: none;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+   margin-top: 20px;
 }
-.fotos{
-    margin-left: 25px;
-    margin-top: 4px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.b {
+    width: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
 }
+.albuns{
+    margin-right: 60px;
+    margin-top: 2px;
+}
+.albuns:hover{
+    color: blue;
+}
+
 .material-icons{
     color: #fff; 
     size: 30px;
@@ -83,6 +90,10 @@ body{
     width: 80px;
     height: 10px;
     margin-left: 70px;
+}
+.albuns{
+    color: #fff;
+    margin-left: 60px;
 }
 
 .menu a{
@@ -169,7 +180,7 @@ font-size: .7rem;
 .card1{
  width: 120px;
  height: 150px;
-  box-shadow: 1px 2px 3px #fff;
+ border: solid 1px #fff;
  display: flex;
  align-items: start;
  justify-content: left;
@@ -192,7 +203,7 @@ font-size: .7rem;
 .card2{
   width: 120px;
  height: 150px;
-  box-shadow: 1px 2px 3px #fff;
+ border: solid 1px #fff;
  display: flex;
  align-items: start;
  justify-content: left;
@@ -216,7 +227,7 @@ font-size: .7rem;
 .card3{
      width: 120px;
  height: 150px;
- box-shadow: 1px 2px 3px #fff;
+ border: solid 1px #fff;
  display: flex;
  align-items: start;
  justify-content: left;
@@ -247,6 +258,11 @@ font-size: .7rem;
     width: 100px;
     height: 100px;
     margin-top: -5px;
+}
+.galeria5{
+    width: 70vw;
+    height: 100vh;
+    margin-left: 180px;
 }
 
 .perfil material-icons:hover{
@@ -467,6 +483,49 @@ width: 20px;
 .pesquisar2{
     display: none;
 }
+.card10{
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 80px;
+    width: 150px;
+    height: 170px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px #fff;
+    background: url(../src/img/download\ \(7\).jpg) ;
+    background-size: cover ;
+}
+ .sino{
+    color: #ffffff;
+    margin-left: 40px;
+ }
+ .not1{
+    box-shadow: 1px 1px 2px #fff;
+    margin-top: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 15px;
+ }
+ .not2{
+     box-shadow: 1px 1px 2px #fff;
+    margin-top: 40px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+ }
+.not3{
+     box-shadow: 1px 1px 2px #fff;
+    margin-top: 45px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+ }
+.not4{
+    box-shadow: 1px 1px 2px #fff;
+    margin-top: 48px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+ }
 
 @media(max-width:460px){
     .ola{
@@ -492,8 +551,8 @@ width: 20px;
     margin-left: 5px;
 }
 .file{
-    font-size: 9.5px;
-    margin-left: 5px;
+    font-size: 11px;
+    margin-left: 4px;
 }
 .novo{
     font-size: 13px;
@@ -665,26 +724,8 @@ width: 20px;
         border: none;
         margin-top: 35px;
         position: absolute;
+        margin-left: 300px;
     }
-   
-    .foto6{
-        margin-top: 50px;
-        width: 90px;
-        height: 110px;
-        margin-left: -15px;
-    }
-    .foto7{
-        margin-top: 50px;
-        height: 110px;
-        width: 90px;
-        margin-left: 45px;
-    }
-.foto5{
-    margin-top: 120px;
-    margin-left: 145px;
-    height: 110px;
-    width:90px;
-}
 .sessao{
     margin-left: 85px;
     margin-top: 30px;
@@ -695,8 +736,44 @@ width: 20px;
     height: 5px;
     background-color: #2b2b2b;
    margin-top: -50px;
-   margin-left: 85px;
+   margin-left: 45px;
+}
+.albuns{
+    margin-left: 27px;
+}
+.fotos{
+    margin-left: 10px;
+}
+.b{
+    margin-left: 35px;
+}
+.albuns{
+    margin-left: 65px;
+}
+.not1{
+    width: 200px;
+    height: 30px;
+    font-size: 8px;
+    margin-left: -80px;
+}
+.not2{
+  width: 200px;
+    height: 30px;
+    font-size: 8px;
+    margin-left: -80px;
+}
+.not3{
+      width: 200px;
+    height: 30px;
+    font-size: 8px;
+    margin-left: -80px;
+}
+.not4{
+      width: 200px;
+    height: 30px;
+    font-size: 8px;
+    margin-left: -80px;
 }
 
-
 }
+
