@@ -267,6 +267,10 @@ font-size: .7rem;
     background-size: cover;
     margin-left: 60%;
 }
+.foto1:active{
+    width: 150px;
+    height: 170px;
+}
 .conteudo{
     display: block;
     width: 100%;
